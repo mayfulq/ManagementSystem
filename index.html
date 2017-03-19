@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+<title>某管理系统</title>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="container-fluid">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">某管理系统</a>
+	</div>
+	<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">首页</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">功能<span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">信息建立</a></li>
+					<li><a href="#">信息查询</a></li>
+					<li><a href="#">信息管理</a></li>
+					<li class="divider"></li>
+					<li><a href="#">帮助</a></li>
+				</ul>
+			</li>
+			<li><a href="#">帮助</a></li>
+		</ul>
+		<form class="navbar-form navbar-right" role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="用户名...">
+				<input type="password" class="form-control" placeholder="密码...">
+			</div>
+			<button type="submit" class="btn btn-primary">登录</button>
+		</form>
+		</div><!-- /.navbar-collapse -->
+	</div>
+	</nav><!-- 导航结束 -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2 ">
+				<div class="list-group list-group-menu">
+					<a href="#" class="list-group-item active">首页</a>
+					<a href="#" class="list-group-item">信息建立</a>
+					<a href="#" class="list-group-item">信息查询</a>
+					<a href="#" class="list-group-item">信息管理</a>
+					<a href="#" class="list-group-item">设置</a>
+					<a href="#" class="list-group-item">帮助</a>
+				</div>
+			</div>
+			<div class="col-md-10">
+				<h2>管理控制台</h2>
+				<hr class="divider">
+				<div class="button-menu-list">
+					<a href="#" class="btn btn-lg btn-default">操作1</a>
+					<a href="#" class="btn btn-lg btn-primary">操作2</a>
+					<a href="#" class="btn btn-lg btn-success">操作3</a>
+					<a href="#" class="btn btn-lg btn-info">操作4</a>
+					<a href="#" class="btn btn-lg btn-warning">操作5</a>
+					<a href="#" class="btn btn-lg btn-danger">操作6</a>
+				</div>
+				<div class="row">
+					<div class="col-md-6 ">
+						<div class="panel panel-primary">
+							<div class="panel-heading">最新消息</div>
+							<div class="panel-body">
+								<div class="list-group">
+									<a href="#" class="list-group-item list-group-item-success"><span>提示&nbsp;</span>您的订单(123456)已经审批通过！</a>
+									<a href="#" class="list-group-item list-group-item-warning"> <span>提示&nbsp;</span>您的订单(147456)客户付款延迟！</a>
+									<a href="#" class="list-group-item list-group-item-danger"> <span>提示&nbsp;</span>您的订单(123789)已经被退回！</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="panel panel-primary">
+						<div class="panel-heading">我的任务</div>
+							<div class="panel-body">
+								<div class="list-group">
+									<a href="#" class="list-group-item list-group-item-info">订单审批<span class="badge pull-right">42</span></a>
+									<a href="#" class="list-group-item list-group-item-info">收款确认<span class="badge pull-right">20</span></a>
+									<a href="#" class="list-group-item list-group-item-info">付款确认<span class="badge pull-right">66</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 ">
+						<div class="panel panel-primary">
+							<div class="panel-heading">最新订单</div>
+							<div class="panel-body">
+								<table class="table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>产品</th>
+											<th>数量</th>
+											<th>总金额</th>
+											<th>业务员</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>Apple Macbook Air</td>
+											<td>10</td>
+											<td>80000</td>
+											<td>王小明</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Huawei Mate 9</td>
+											<td>6</td>
+											<td>80000</td>
+											<td>李小花</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>Meizu MX6</td>
+											<td>3</td>
+											<td>6000</td>
+											<td>张小蛋</td>
+										</tr>
+										<tr>
+											<td>4</td>
+											<td>Xiaomi 5plus</td>
+											<td>2</td>
+											<td>4000</td>
+											<td>刘小红</td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="panel-footer">
+								<a href="#" class="btn btn-primary">查看详情&nbsp;&raquo;</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="panel panel-primary">
+						<div class="panel-heading">工程进度</div>
+							<div class="panel-body">
+								<button class="btn btn-primary" type="button">一号工程</button>
+								<div class="progress hr-progress">
+									<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%
+										<span class="sr-only">60% Complete</span>
+									</div>
+								</div>
+								<button class="btn btn-primary" type="button">二号工程</button>
+								<div class="progress hr-progress">
+									<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%
+										<span class="sr-only">80% Complete</span>
+									</div>
+								</div>
+								<button class="btn btn-primary" type="button">三号工程</button>
+								<div class="progress hr-progress">
+									<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%
+										<span class="sr-only">30% Complete</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"><p>Copyright&copy;2016 Written and coded by <a href="http://codepen.io/mayfulq/">Mafulq</a></p></div>
+		</div>
+	</div>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

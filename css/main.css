@@ -1,0 +1,38 @@
+   body{
+font-family: "微软雅黑";
+padding: 45px 0;
+}
+
+.col-md-2{
+padding: 0px 0px 350px 0px ;
+background-color: rgb(221,221,221);
+}
+.list-group-menu a{
+	padding: 15px;
+	margin-top: 25px;
+ background-color: rgb(221,221,221);
+}
+.col-md-10 .divider{
+border-bottom: 1px solid rgb(221,221,221);
+}
+.col-md-10 h2{
+	display:block;
+	padding-top:16px;
+}
+.button-menu-list{
+margin-bottom: 20px;
+}
+.list-group span{
+font-weight:bold;
+}
+.panel-body .list-group a {
+margin: 5px 0 20px 0;
+padding: 15px;
+}
+.hr-progress{
+margin-top: 10px;
+}
+.col-md-12{
+	text-align: center;
+	margin: 30px 0;
+}
